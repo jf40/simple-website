@@ -1,43 +1,19 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-  <title>Forms test!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingrid's application website</title>
+  <link rel="stylesheet" href="style.css">  
 </head>
-
 <body>
-  <!-- the "action" option lets us choose where the info is sent to -->
-  <!-- The method specifies the http method we want to use to send the data: GET or POST -->
-  <form action="form.html" method="get">
-    <!-- "for" lets us choose what the label is labeling -->
-    <label for="username">Username</label>
-    <input type="text" name="username" id="usernm">
-
-    <label for="password">Password</label>
-    <input type="text" name="password" id="passwrd">
-
-
-    <hr>
-    <label for="age">Age</label>
-    <input type="number" name="age" id="age">
-
-
-    <hr>
-    <label for="email">Do you have an email?</label>
-    <input type="checkbox" name="email" id="email" value="yes">
-    <hr>
-
-
-    <label for="pc">Do you have a pc?</label>
-    <input type="radio" name="pc " id="pc" value="yes">
-    <hr>
-
-    <!-- Here, "value" lets us change the texts that appears inside the button. By default, it's         "send" and "reset" -->
-    <input type="submit">
-    <input type="reset">
-    <input type="submit" value="SEND">
-  </form>
+  <div class="container">
+    <h1>Welcome to my portfolio!</h1>
+    <p>Please select an option:</p>
+    <button class="button" onclick="location.href='relatos.html'">My short stories</button>
+    <button class="button" onclick="location.href='velotechF1.html'">F1inSchools</button>
+    <button class="button" onclick="location.href='entrepreneurship.html'">My entrepreneurship project</button>
+    <!-- <button class="button" onclick="location.href='arte.html'">My drawings</button> -->
+  </div>
 </body>
-
 </html>

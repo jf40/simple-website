@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+  }
+  .container {
+    margin-top: 60px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #044992;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+/* Style for the embedded PDF */
+iframe {
+  width: 100%;
+  height: calc(100vh - 150px); /* Adjust the height as needed */
+  border: none;
+  overflow: hidden; /* Hide scrollbars */
+}
+.small-image {
+  width: 1000px; /* Set the width */
+  height: auto; /* Maintain aspect ratio */
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px; /* Add spacing above the footer */
+}
+.image-text {
+  margin-bottom: 100px; /* Add spacing between the image and text */
+}
+h1 {
+  margin-bottom: 30px;
+}
